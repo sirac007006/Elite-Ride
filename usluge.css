@@ -403,7 +403,7 @@ a:hover {
         .beliservices {
           flex-direction: column-reverse; /* postavlja sadržaj jedan ispod drugog */
           text-align: center;
-          height: 90vh;
+          height: 100vh;
         }
         .beliservices .image {
           text-align: center;
