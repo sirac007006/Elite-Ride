@@ -175,6 +175,11 @@ main {
   gap: 20px;
 }
 
+.sve{
+  display: flex;
+  justify-content: center;
+}
+
 .reservation-form {
   flex: 1;
   min-width: 300px;
