@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Elite Ride</title>
+    <title>Elite Ride  </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="rezervacija.css">
     <!-- Font Awesome Link for Icons -->
@@ -14,41 +14,32 @@
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
-        <a href="indexsrp.html"><img src="logoer.png" class="logo"></a>
+        <a href="index.html"><img src="logoer.png" class="logo"></a>
         <ul>
-          <li><a href="indexsrp.html">Home</a></li>
-          <li><a href="O-nama.html">About Us</a></li>
-          <li><a href="usluge.html">Services</a></li>
-          <li><a href="cene.html">Prices</a></li>
-          <li><a href="vozila.html">Fleet</a></li>
-          <li><a href="kontakt.html">Contact</a></li>
-          <li><a href="rezervacija.html" class="rez-btn">Book</a></li>
-          <li class="language-switcher"><a href="book.html">ENG</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="fleet.html">Fleet</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="book.html" class="rez-btn">Book Now</a></li>
+          <li class="language-switcher"><a href="rezervacija.html">SRB</a></li>
         </ul>
-    </nav>
-
-    <h1 class="glavnih1">Book Now</h1>
-    <div class="services-divider"></div>
-
-    <div class="container">
+      </nav>
+      <h1 class="glavnih1">Book Now</h1>
+      <div class="services-divider"></div>
+      <div class="container">
         <header>
             <h1 class="naslovne">Book Now</h1>
         </header>
         <div class="sve">
         <main>
             <form class="reservation-form" action="mailto:eliteridecg@gmail.com" method="POST" enctype="text/plain">
-                <label for="Tipvoznje">Type of service</label>
+                <label for="Tipvoznje">Type of ride</label>
                 <select id="Tipvoznje" name="Tipvoznje">
                     <option value="U-jednom-smeru">One way</option>
-                    <option value="Povratna-vožnja">Round trip</option>
-                    <option value="Od-Tacke-Do-Tacke">Multiple rides</option>
-                </select>
-
-                <label for="Vozilo">Select Vehicle</label>
-                <select id="Vozilo" name="Vozilo">
-                    <option value="Mercedes E-Class">Mercedes E-Class</option>
-                    <option value="BMW 5 Series">BMW 5 Series</option>
-                    <option value="Mercedes V-Class">Mercedes V-Class</option>
+                    <option value="Povratna-vožnja">Return ride</option>
+                    <option value="Od-Tacke-Do-Tacke">Couple of rides</option>
                 </select>
 
                 <label for="Datum">Date</label>
@@ -57,27 +48,24 @@
                 <label for="Vreme">Time</label>
                 <input type="time" id="Vreme" name="Vreme" required>
 
-                <label for="Lokacija-polaska">Pick-up Location</label>
-                <input type="text" id="Lokacija-polaska" name="Lokacija-polaska" placeholder="Enter location" required>
+                <label for="Lokacija-polaska">Beginning location</label>
+                <input type="text" id="Lokacija-polaska" name="Lokacija-polaska" placeholder="Upiši mesto" required>
 
-                <label for="Lokacija-odlaska">Drop-off Location</label>
-                <input type="text" id="Lokacija-odlaska" name="Lokacija-odlaska" placeholder="Enter location" required>
+                <label for="Lokacija-odlaska">Final location</label>
+                <input type="text" id="Lokacija-odlaska" name="Lokacija-odlaska" placeholder="Upiši mesto" required>
 
                 <label for="Putnika">Number of passengers</label>
                 <input type="number" id="Putnika" name="Putnika" min="1" max="5" required>
 
                 <button type="submit">Book Now</button>
             </form>
-
             <div class="map">
-                <img src="E-class.jpg" alt="Mercedes E-Class">
-                <img src="V-class.jpg" alt="Mercedes V-Class">
+                <img src="vozilo3.jpg" alt="World Map">
             </div>
         </main>
         </div>
-    </div>
-
-    <footer>
+      </div>
+      <footer>
         <div class="footer">
         <div class="row">
         <a href="tel:+382 (67) 396-667"><i class="fas fa-phone-alt"></i></a>
@@ -88,15 +76,15 @@
         <div class="row">
             <ul class="ftrul">
                 <li><a class="ftrlink" href="index.html">Home</a></li>
-                <li><a class="ftrlink" href="O-nama.html">About Us</a></li>
-                <li><a class="ftrlink" href="usluge.html">Services</a></li>
-                <li><a class="ftrlink" href="vozila.html">Fleet</a></li>
-                <li><a class="ftrlink" href="kontakt.html">Contact</a></li>
+                <li><a class="ftrlink" href="aboutus.html">About Us</a></li>
+                <li><a class="ftrlink" href="services.html">Services</a></li>
+                <li><a class="ftrlink" href="vehicles.html">Vehicles</a></li>
+                <li><a class="ftrlink" href="contact.html">Contact</a></li>
             </ul>
         </div>
         
         <div class="row">
-            &copy; 2025 FixIT Crna Gora
+            ©2025 Marko Ivanović
         </div>
         </div>
     </footer>
